@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction App</title>
+</head>
+<body>
+    <h1>Fleur d'Iris Prediction</h1>
+    <form action="/result" method="post">
+        <label for="longueur_sepale">Longueur Sépale:</label>
+        <input type="text" name="longueur_sepale" required><br>
+
+        <label for="largeur_sepale">Largeur Sépale:</label>
+        <input type="text" name="largeur_sepale" required><br>
+
+        <label for="longueur_petale">Longueur Pétale:</label>
+        <input type="text" name="longueur_petale" required><br>
+
+        <label for="largeur_petale">Largeur Pétale:</label>
+        <input type="text" name="largeur_petale" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
